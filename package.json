@@ -1,0 +1,17 @@
+{
+  "name": "poc-websocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ws-server": "node ./Server/src/index.js",
+    "ws-client": "node ./Client/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.4.2"
+  }
+}
